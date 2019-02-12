@@ -24,3 +24,43 @@ body {
 .song-title {
   text-align: center;
 }
+
+.song-list {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.song-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.song-list .headers>* {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.song-list ul .single-song .title,
+.song-list ul .single-song .artist {
+  width: 40%;
+  border-right: 2px solid black;
+  text-align: center;
+}
+
+.single-song {
+  border: 1px solid black;
+}
+
+.song-list ul .button {
+  width: 55px;
+  height: 50px;
+  background: url(images/play-button.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.single-song>* {
+  display: inline-block;
+}
